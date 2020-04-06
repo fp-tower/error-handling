@@ -1,6 +1,6 @@
 package exercises.errorhandling
 
-import answers.sideeffect.IOAnswers.IO
+import answers.errorhandling.IO
 import exercises.errorhandling.OptionExercises.Shape.{Circle, Rectangle}
 import io.circe.{parser, Json}
 
@@ -29,7 +29,6 @@ object OptionExercises {
   case class Email(value: String)
 
   sealed trait Role {
-    import Role._
 
     // 1b. Implement `optSingleAccountId` which returns the account id if the role is a Reader or Editor
     // such as Editor(123, "Comic Sans").optSingleAccountId == Some(123)

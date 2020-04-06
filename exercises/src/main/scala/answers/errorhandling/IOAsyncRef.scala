@@ -1,4 +1,4 @@
-package answers.sideeffect
+package answers.errorhandling
 
 import java.util.concurrent.atomic.AtomicReference
 

@@ -2,7 +2,7 @@ package errorhandling
 
 import answers.errorhandling.OptionAnswers.Role._
 import answers.errorhandling.OptionAnswers._
-import answers.sideeffect.{IOAsync, IOAsyncRef}
+import answers.errorhandling.{IOAsync, IOAsyncRef}
 import exercises.errorhandling.InvOption
 import org.scalatest.funsuite.AnyFunSuite
 import org.scalatest.matchers.should.Matchers

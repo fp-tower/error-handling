@@ -1,8 +1,7 @@
 package answers.errorhandling
 
 import answers.errorhandling.OptionAnswers.Shape.{Circle, Rectangle}
-import answers.sideeffect.IOAnswers.IO
-import answers.sideeffect.IOAsync
+import answers.errorhandling.{IO, IOAsync}
 import exercises.errorhandling.InvOption
 
 import scala.concurrent.duration._

@@ -3,12 +3,12 @@ package answers.types
 import java.time.Instant
 import java.util.UUID
 
+import answers.errorhandling.IO
 import answers.types.Comparison._
 import cats.data.NonEmptyList
 import eu.timepit.refined.api.Refined
 import eu.timepit.refined.numeric._
 import eu.timepit.refined.types.numeric.PosInt
-import exercises.sideeffect.IOExercises.IO
 import exercises.types.Card._
 import exercises.types.{Card, Cardinality, Iso}
 
